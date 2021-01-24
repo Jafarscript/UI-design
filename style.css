@@ -1,0 +1,22 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: #ffffff;
+}
+.design{
+    background: #231838;
+    padding: 100px;
+}
+.right h1{
+    color: #fff;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right h1 span{
+    font-weight: 800;
+    font-size: 20px;
+    top: 30px;
+}
