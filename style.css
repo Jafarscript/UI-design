@@ -4,12 +4,15 @@
 }
 .design{
     background: #2c223b;
+    display: flex;
+    flex-direction: row;
     /* padding: 100px; */
 }
 .right{
     box-sizing: border-box;
     padding: 100px;
     max-width: 50%;
+    margin-right: 100px;
 }
 .right p{
     color: #fff;
