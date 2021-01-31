@@ -262,6 +262,7 @@ input:checked[type="checkbox"]::before{
     font-size: 12px;
     position: absolute;
     right: 90px;
+    cursor: pointer;
     margin-top: 55px;
     box-shadow: 0 5px 10px 0 rgba(2, 194, 219, 0.6), 0 7px 21px 0  rgba(2, 194, 219, 0.6);
 }
@@ -274,6 +275,7 @@ input:checked[type="checkbox"]::before{
 .first{
     background: rgb(130, 8, 141);
     color: #fff;
+    cursor: pointer;
     padding: 10px 10px;
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -283,7 +285,9 @@ input:checked[type="checkbox"]::before{
     margin-left: 10px;
     font-size: 14px;
 }
-
+.second{
+    cursor: pointer;
+}
 .second #left{
     background: gray;
     padding: 8px 12px;
